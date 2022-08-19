@@ -1,0 +1,48 @@
+html{scroll-behavior: smooth;}
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color:black;
+   
+}
+
+
+.input-group{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255 255 255 / 70%);
+    border-radius: 0;
+    color: rgb(255 255 255);
+    font-weight: 800;
+}
+
+.layer{
+    background-color: white;
+    top:  100%;
+    opacity: 0.7;
+    transition: all 1s;
+   
+}
+.parent-card:hover .layer{
+top: 0%;
+left: 0;
+}
+
+aside{
+    z-index: 10004444444;;
+    display: block;
+}
+.aside-small{
+    background-color: rgb(248 246 246);
+    transition: all 0.6s ease;
+}
+
+
+
+
+  
